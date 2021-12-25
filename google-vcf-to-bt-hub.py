@@ -31,7 +31,7 @@ def processFile(infile):
             debugMsg("Found line starting with EMAIL. Skipping.")
             continue 
         if re.match('CATEGORIES',line):
-            debugMsg("Found line starting with PHOTO. Skipping.")
+            debugMsg("Found line starting with CATEGORIES. Skipping.")
             continue 
         if re.match('\s',line):
             debugMsg("Found line starting with space. Skipping.")
