@@ -2,7 +2,7 @@ Description
 ===========
 This script converts a .vcf contacts file exported from Google Contacts into a format suitable to be uploaded to a BT Digital Voice DECT landline handset via the web interface on the BT Smart Hub 2. A direct upload will silently fail due to differences in formatting of phone numbers. This allows you to rapidly add lots of existing contacts without keying all the names and numbers in manually on the phone handset. 
 
-This script was written and tested against Pythion 3.10.1. Although substantially repurposed/rewritten the basis of this script is a [a script authored by Mario Aeby](https://github.com/emeidi/strip-images-from-apple-vcard) with a different purpose. 
+This script was written and tested against Python 3.10.1. Although substantially repurposed/rewritten the basis of this script is a [a script authored by Mario Aeby](https://github.com/emeidi/strip-images-from-apple-vcard) with a different purpose. 
 
 Usage
 =====
