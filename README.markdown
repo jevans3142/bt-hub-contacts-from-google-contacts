@@ -4,6 +4,13 @@ This script converts a .vcf contacts file exported from Google Contacts into a f
 
 This script was written and tested against Python 3.10.1. Although substantially repurposed/rewritten the basis of this script is a [a script authored by Mario Aeby](https://github.com/emeidi/strip-images-from-apple-vcard) with a different purpose. 
 
+EE Smart Hub Plus note
+----------------------
+
+Although I have not been able to test this myself, "techydave" used this script on a newer EE Smart Hub Plus and sent this note:
+> There is however a problem with incoming calls from people in the contacts list in that their number is shown but not their name.  I found that changing the 0044 prefix to just 0 fixed this problem (it may also have created other problems that I haven't found yet of course).  I modified the output.vcf file easily by opening it in Notepad and using Replace to change 0044 with 0 and all appears well.  With the Smart Hub Plus you just have to Input the new output.vcf file; this takes some time and gives you the impression that it will fail or corrupt the data but seems to work fine.
+Thanks to David for this note. This will probably become more relevant as BT moves its consumer brand to be EE.  
+
 Usage
 =====
 To directly convert an input file and write to an output vcf file: 
